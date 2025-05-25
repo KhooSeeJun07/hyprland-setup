@@ -1,10 +1,3 @@
-sudo pacman -S --needed --noconfirm \
-hyprland \
-hyprlock \
-kitty \
-rofi \
-waybar \
-
 mkdir -p ~/.config/hypr/
 cp ./config/hypr/hyprland.conf ~/.config/hypr/hyprland.conf
 cp ./config/hypr/hyprlock.conf ~/.config/hypr/hyprlock.conf
