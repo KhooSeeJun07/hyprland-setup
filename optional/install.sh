@@ -10,7 +10,6 @@ dunst \
 pipewire wireplumber \
 xdg-desktop-portal-hyprland \
 brightnessctl \
-yazi 7zip \
 fastfetch \
 cava \
 
@@ -53,7 +52,7 @@ vulkan-radeon \
 lib32-vulkan-radeon \
 libva-mesa-driver \
 mesa-vdpau \
-
+rocm-opencl-runtime \
 flatpak \
 
 yay -S --needed --noconfirm \
