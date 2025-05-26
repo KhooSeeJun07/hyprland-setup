@@ -47,7 +47,14 @@ fi
 
 echo "Install application for KhooSeeJun"
 
-sudo pacman -S --needed --noconfirm mesa vulkan-radeon lib32-vulkan-radeon flatpak
+sudo pacman -S --needed --noconfirm \
+mesa \
+vulkan-radeon \
+lib32-vulkan-radeon \
+libva-mesa-driver \
+mesa-vdpau \
+
+flatpak \
 
 yay -S --needed --noconfirm \
 zen-browser-bin \
