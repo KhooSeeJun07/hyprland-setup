@@ -1,5 +1,8 @@
 # Hyprland Setup
 
+### Linux Distro
+[Arch Linux](https://archlinux.org)
+
 ### Window Manager
 [Hyprland](https://hyprland.org)
 
