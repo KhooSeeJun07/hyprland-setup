@@ -14,6 +14,7 @@ fastfetch \
 cava \
 bluez bluez-utils blueman \
 cups cups-pdf foomatic-db \
+sddm \
 
 sudo pacman -S --needed --noconfirm noto-fonts noto-fonts-cjk papirus-icon-theme
 
@@ -87,6 +88,7 @@ io.mrarm.mcpelauncher \
 org.vinegarhq.Sober \
 com.github.tchx84.Flatseal \
 
+sudo systemctl enable --now sddm
 sudo systemctl enable --now bluetooth
 sudo systemctl enable --now cups
 
