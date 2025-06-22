@@ -88,7 +88,6 @@ io.mrarm.mcpelauncher \
 org.vinegarhq.Sober \
 com.github.tchx84.Flatseal \
 
-sudo systemctl enable --now sddm
 sudo systemctl enable --now bluetooth
 sudo systemctl enable --now cups
 
