@@ -7,6 +7,9 @@ rofi \
 neovim \
 waybar \
 dunst \
+noto-fonts \
+noto-fonts-cjk \
+papirus-icon-theme \
 pipewire wireplumber \
 xdg-desktop-portal-hyprland \
 brightnessctl \
@@ -15,8 +18,6 @@ cava \
 bluez bluez-utils blueman \
 cups cups-pdf foomatic-db \
 sddm \
-
-sudo pacman -S --needed --noconfirm noto-fonts noto-fonts-cjk papirus-icon-theme
 
 require_more() {
     while true; do
@@ -47,7 +48,7 @@ if require_more; then
     exit 0
 fi
 
-echo "Install application for KhooSeeJun"
+echo "Install more application"
 
 sudo pacman -S --needed --noconfirm \
 mesa \
@@ -62,7 +63,6 @@ flatpak \
 yay -S --needed --noconfirm \
 youtube-music-bin \
 localsend-bin \
-wps-office \
 
 sudo pacman -S --needed --noconfirm \
 firefox \
