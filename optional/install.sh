@@ -5,7 +5,6 @@ hyprlock \
 kitty \
 rofi \
 neovim \
-waybar \
 dunst \
 noto-fonts \
 noto-fonts-cjk \
@@ -18,6 +17,7 @@ cava \
 bluez bluez-utils blueman \
 cups cups-pdf foomatic-db \
 sddm \
+dolphin \
 
 require_more() {
     while true; do
