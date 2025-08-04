@@ -13,6 +13,7 @@ papirus-icon-theme \
 pipewire wireplumber \
 xdg-desktop-portal-hyprland \
 brightnessctl \
+grim \
 fastfetch \
 cava \
 git \
@@ -69,7 +70,8 @@ steam \
 proton-vpn-gtk-app \
 keepassxc \
 thunar \
-thunar-archive-plugin
+thunar-archive-plugin \
+hyprsunset
 
 yay -S --needed --noconfirm \
 brave-bin \
