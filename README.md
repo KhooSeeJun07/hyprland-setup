@@ -7,16 +7,16 @@
 [Hyprland](https://hyprland.org)
 
 ### Terminal
-[Kitty](https://sw.kovidgoyal.net/kitty) \
-Theme: Github-Dark from ( kitten theme )
+[Alacritty](https://alacritty.org)
 
 ### App Launcher
 [Rofi](https://github.com/davatorium/rofi) \
-Theme: Arc-Dark from ( rofi-theme-selector )
+Theme: arthur by Qball (rofi-theme-selector)
 
 ### Status Bar
-[Waybar](https://github.com/Alexays/Waybar) \
-Theme: (https://github.com/cjbassi/config/tree/master/.config/waybar)
+[Polybar](https://polybar.github.io) \
+Theme: launch.sh --forest
 
-### Icon
-[Papirus Icon](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
+### Text Editor
+[NeoVim](https://neovim.io) \
+Config: [AstraNvim](https://astronvim.com)
