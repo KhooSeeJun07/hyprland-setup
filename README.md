@@ -14,8 +14,8 @@
 Theme: arthur by Qball (rofi-theme-selector)
 
 ### Status Bar
-[Polybar](https://polybar.github.io) \
-Theme: launch.sh --forest
+[Waybar](https://github.com/Alexays/Waybar) \
+Theme: [soaddevgit](https://github.com/soaddevgit/WaybarTheme)
 
 ### Text Editor
 [NeoVim](https://neovim.io) \

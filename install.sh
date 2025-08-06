@@ -27,6 +27,10 @@ cp ./.config/rofi/config.rasi ~/.config/rofi/config.rasi
 mkdir -p ~/.config/cava/
 cp ./.config/cava/config ~/.config/cava/config
 
+mkdir -p ~/.config/waybar
+git clone https://github.com/soaddevgit/WaybarTheme.git
+mv WaybarTheme/* ~/.config/waybar/
+
 git clone https://aur.archlinux.org/yay.git ~/yay
 cd ~/yay
 makepkg -si
